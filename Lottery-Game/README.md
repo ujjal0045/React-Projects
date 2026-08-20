@@ -1,16 +1,90 @@
-# React + Vite
+# 🎟️ Lottery Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Lottery Game** built using React.js.
 
-Currently, two official plugins are available:
+The main goal of this project is to practice React fundamentals while building a small and fun application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 How to Win
 
-## React Compiler
+The player receives a lottery ticket containing numbers.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+If the **sum of all the ticket numbers is equal to 15**, you win the lottery! 🎉
 
-## Expanding the ESLint configuration
+Otherwise, you lose the game. 😄
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* React.js
+
+## 🧠 What I Learned
+
+While building this project, I practiced:
+
+* React components
+* `useState`
+* Props
+* Event handling
+* Conditional rendering
+* Working with arrays
+* Generating random numbers
+* Passing data between components
+
+## 📚 Learning
+
+I am currently learning React.js through **Apna College's Sigma 8.0** and building projects alongside my learning to strengthen my concepts.
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+Navigate to the project folder:
+
+```bash
+cd lottery-game
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal to play the game.
+
+## 🎮 Game Logic
+
+```text
+Generate Lottery Ticket
+        ↓
+Calculate Sum of Numbers
+        ↓
+Is Sum = 15?
+    ↙         ↘
+  YES          NO
+   ↓            ↓
+  WIN          LOSE
+🎉             😢
+```
+
+## 📌 Project Status
+
+🚧 This project is currently part of my React.js learning journey.
+
+More React projects coming soon! 🚀
+
+---
+
+⭐ If you like this project, feel free to give it a star!
